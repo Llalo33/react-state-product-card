@@ -1,0 +1,57 @@
+.font {
+    text-align: left;
+    font-size: 20px;
+    color: brown;
+}
+
+.cartBody{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    text-align: right;
+    color: brown;
+    background-color: aliceblue;
+    width: 100px;
+    text-align: center;
+    border-color: brown;
+    cursor: pointer;
+    height: 30px;
+}
+
+.button {
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 300px;
+    top: 180px;
+    left: 300px;
+    display: flex;
+    background-color: rgb(247, 237, 218);
+    padding: 10px;
+}
+
+.closeBtn{
+    border: none;
+    background-color: transparent;
+}
+
+.openInfo{
+    margin-right: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: black;
+    border-color: rgb(172, 24, 21);
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100px;
+}

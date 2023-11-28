@@ -1,0 +1,46 @@
+hr {
+  width: 70%;
+  height: 1px;
+  background-color: #8a8686; /* Цвет линии */
+  width: calc(100% - 40px);
+}
+
+.loremName {
+  font-size: 12px;
+  text-align: center;
+}
+
+.cartButton {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  background-color: rgb(196, 30, 30);
+  color: white;
+  top: 10px;
+  border: 1px solid transparent;
+  outline: none; 
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.cartRemoveButton {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  background-color: rgb(24, 67, 155);
+  color: rgb(0, 0, 0);
+  top: 10px;
+  border: 1px solid transparent;
+  outline: none; 
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+p {
+  color: red;
+  position: relative;
+  display: inline-block;
+  cursor: pointer; 
+}
